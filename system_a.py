@@ -23,7 +23,7 @@ except (FileNotFoundError, KeyError):
 # コストを抑えるなら "gpt-4o-mini"、性能重視なら "gpt-4o"
 MODEL_NAME = "gpt-5-mini" 
 TEMPERATURE = 1
-TIMEOUT = 30.0
+TIMEOUT = 60.0
 
 # ========== ステップ2：LangChain初期化 ==========
 print("🚀 OpenAI API接続初期化中...")
@@ -1284,3 +1284,4 @@ if __name__ == "__main__":
     )
 
     main()
+

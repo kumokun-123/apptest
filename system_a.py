@@ -1224,7 +1224,7 @@ def main():
     # セッション状態初期化
     init_session_state()
 
-with st.sidebar:
+    with st.sidebar:
         st.title("🎬 映画推薦システム (A)")
         st.markdown(f"**モデル**: {MODEL_NAME}")
         st.markdown("---")
@@ -1282,4 +1282,5 @@ if __name__ == "__main__":
         page_icon="🎬",
         layout="wide"
     )
+
     main()
